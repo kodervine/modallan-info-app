@@ -3,10 +3,11 @@ import "./App.css"
 
 export default function Main() {
   return (
-    <div>
+    <div class="main-container">
       <header class="main-header">
         <img src="" alt="country-flag" />
         <h3>Country Name: Nigeria</h3>
+        <div><span class="material-symbols-outlined">expand_more</span></div>
       </header>
 
       {/* Body blurb */}
