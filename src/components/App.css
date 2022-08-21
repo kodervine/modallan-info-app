@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 50%;
+}
+
+.main-header {
+  border: 2px solid rgb(241, 232, 232);
+  box-shadow: 4px 0 12px 0px rgba(0,0,0,0.5);
+  padding: 30px;
+}
+
+.main-body {
+  padding: 10px 5px;
+}
+
+.main-body p {
+  padding: 10px 0 5px 0;
+}
