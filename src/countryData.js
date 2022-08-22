@@ -6,7 +6,7 @@ export default [
     region: "North Africa",
     population: "43,851,044",
     currency: "Algerian dinar",
-    flag: ""
+    flag: "https://www.nationsonline.org/gallery/Algeria/Algeria-Flag.jpg"
   },
 {
     name: "Angola",
@@ -15,7 +15,8 @@ export default [
     region: "Central Africa/Southern Africa ",
     population: "32,866,272",
     currency: "Angolan kwanza ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/angola_flag.gif",
+    language: "Portuguese (official), and several Bantu languages like Kikongo, Kimbundo, Tchokwe, Umbundo and others."
   },
 {
     name: "Benin",
@@ -23,8 +24,9 @@ export default [
     capital: "Porto-Novo ",
     region: "West Africa ",
     population: "12,123,200 ",
-    currency: "West African CFA franc ",
-    flag: ""
+    currency: "West African CFA franc",
+    flag: "https://www.nationsonline.org/flags_big/Benin_lgflag.gif",
+    language:"French (official), Fon and Yoruba."
   },
 {
     name: "Botswana ",
@@ -33,7 +35,8 @@ export default [
     region: "Southern Africa ",
     population: "2,351,627 ",
     currency: "Botswana pula ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/botswana_flag.gif",
+    language:"English and Tswana"
   },
 {
     name: "Burkina Faso ",
@@ -42,7 +45,8 @@ export default [
     region: "West Africa ",
     population: "20,903,273 ",
     currency: "West African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/burkina_faso_flag.gif",
+    language: "French (official), Mossi, Fulani and Dioula"
   },
 {
     name: "Burundi ",
@@ -51,7 +55,8 @@ export default [
     region: "East Africa ",
     population: "11,890,784 ",
     currency: "Burundian franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/burundi_flag.gif",
+    language:"French (official 0.3%) and Kirundi"
   },
 {
     name: "Cameroon ",
@@ -60,7 +65,8 @@ export default [
     region: "Central Africa ",
     population: "26,545,863 ",
     currency: "Central African CFA franc",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/cameroon_flag.gif",
+    language: "English and French are official languages, however French is by far the most commonly used language."
   },
 {
     name: "Cape Verde ",
@@ -69,7 +75,8 @@ export default [
     region: "West Africa",
     population: "555,987 ",
     currency: ": Cape Verdean escudo ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/cape_verde_flag.gif",
+    language: "Portuguese, Cape Verdean Creole"
   },
 {
     name: "Central African Republic ",
@@ -78,7 +85,8 @@ export default [
     region: "Central Africa ",
     population: "4,829,767 ",
     currency: "Bitcoin, Central African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/central_african_republic.gif",
+    language:"French (official) and Sango."
   },
 {
     name: "Chad ",
@@ -87,7 +95,8 @@ export default [
     region: "Central Africa ",
     population: " 16,425,864",
     currency: " Central African CFA franc",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/chad_flag.gif",
+    language:" French and Arabic (both official), over 120 languages and dialects in use by 200 distinct groups"
   },
 {
     name: "Comoros",
@@ -96,7 +105,8 @@ export default [
     region: "East Africa",
     population: "869,601 ",
     currency: "Comorian franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/comoros_flag.gif",
+    language:"Comorian Swahili, French, and Arabic."
   },
 {
     name: "Côte d'Ivoire",
@@ -105,7 +115,18 @@ export default [
     region: "West Africa ",
     population: "26,378,274",
     currency: "West African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/ivory_coast_flag.gif",
+    language: "French (official), the Diula (Dioula), Baule (Baoulé), Dan, Anyin and Senari."
+  },
+{
+    name: "Democratic Republic of Congo ",
+    blurb: "The Democratic Republic of the Congo, informally Congo-Kinshasa, DR Congo, the DRC, the DROC, or the Congo, and formerly and also colloquially Zaire, is a country in Central Africa.",
+    capital: " Kinshasa",
+    region: " Central Africa",
+    population: "89,561,403 ",
+    currency: "Congolese franc ",
+    flag: "https://www.nationsonline.org/flags/congo_drc_flag.gif",
+    language: "French (official) and several other languages like Lingala (in the north of the country), Kikongo, Kituba (a widely used lingua franca in Central Africa), Swahili, and Tshiluba."
   },
 {
     name: "Djibouti ",
@@ -114,16 +135,8 @@ export default [
     region: "East Africa",
     population: "1,018,605",
     currency: "Djiboutian franc",
-    flag: ""
-  },
-{
-    name: "DR Congo ",
-    blurb: "The Democratic Republic of the Congo, informally Congo-Kinshasa, DR Congo, the DRC, the DROC, or the Congo, and formerly and also colloquially Zaire, is a country in Central Africa.",
-    capital: " Kinshasa",
-    region: " Central Africa",
-    population: "89,561,403 ",
-    currency: "Congolese franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/djibouti_flag.gif",
+    language:"French and Arabic (both official), Somali, and Afar."
   },
 {
     name: "Egypt ",
@@ -132,7 +145,8 @@ export default [
     region: "North Africa",
     population: "102,334,404",
     currency: "Egyptian pound",
-    flag: ""
+    flag: "https://www.nationsonline.org/gallery/Egypt/Egypt-Flag.png",
+    language: "Modern Standard Arabic"
   },
 {
     name: "Equatorial Guinea",
@@ -141,7 +155,8 @@ export default [
     region: "Central Africa",
     population: "1,402,985 ",
     currency: "Central African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/equatorial_guinea_flag.gif",
+    language:"Spanish, (national), French, and Portuguese"
   },
 {
     name: "Eritrea",
@@ -150,7 +165,8 @@ export default [
     region: " East Africa",
     population: "3,546,421",
     currency: "Eritrean nakfa",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/eritrea_flag.gif",
+    language:"Tigrinya, Tigre, and Dahlik, Italian, English, Arabic"
   },
 {
     name: "Eswatini (formerly Swaziland) ",
@@ -159,7 +175,8 @@ export default [
     region: "Southern Africa ",
     population: "1,160,164",
     currency: "South African rand, Swazi lilangeni ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/swaziland_flag.gif",
+    language:"Swati, English"
   },
 {
     name: "Ethiopia ",
@@ -168,7 +185,8 @@ export default [
     region: "East Africa ",
     population: "114,963,588 ",
     currency: "Ethiopian birr ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/Ethiopia_flag.gif",
+    language:"Oromo, Somali, Afar, and Tigrinya, Amharic"
   },
 {
     name: "Gabon ",
@@ -177,7 +195,8 @@ export default [
     region: "Central Africa ",
     population: "2,225,734 ",
     currency: "Central African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/gabon_flag.gif",
+    language:"French (official) and a variety of Bantu languages."
   },
 {
     name: "The Gambia ",
@@ -186,7 +205,8 @@ export default [
     region: "West Africa",
     population: "2,416,668 ",
     currency: "2,416,668 ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/gambia_flag.gif",
+    language: "English (official), Malinke, Creole."
   },
 {
     name: "Ghana ",
@@ -195,7 +215,8 @@ export default [
     region: "West Africa",
     population: "31,072,940",
     currency: "Ghanaian cedi",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/ghana_flag.gif",
+    language: "English (official), and Akan (Twi–Fante), and about seventy more West African languages."
   },
 {
     name: "Guinea ",
@@ -204,7 +225,8 @@ export default [
     region: "West Africa ",
     population: "13,132,795 ",
     currency: "Guinean franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/guinea_flag.gif",
+    language: "French (official), and eight national languages."
   },
 {
     name: "Guinea-Bissau ",
@@ -213,7 +235,8 @@ export default [
     region: "West Africa ",
     population: "1,968,001 ",
     currency: "West African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/guinea-bissau_flag.gif",
+    language: "Portuguese (official), several West African languages, and Guinea-Bissau Creole"
   },
 {
     name: "Kenya",
@@ -222,7 +245,8 @@ export default [
     region: "East Africa ",
     population: "53,771,296",
     currency: "Kenyan shilling ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/kenya_flag.gif",
+    language:"Swahili and English (both official), and numerous indigenous languages mainly Kikuyu and Luhya."
   },
 {
     name: "Lesotho",
@@ -231,7 +255,8 @@ export default [
     region: "Southern Africa ",
     population: "2,142,249 ",
     currency: "Lesotho loti, South African rand ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/lesotho_flag.gif",
+    language:"Sesotho, English, Xhosa, Zulu"
   },
 {
     name: "Liberia",
@@ -240,7 +265,8 @@ export default [
     region: " West Africa",
     population: "5,057,681 ",
     currency: "Liberian dollar ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/liberia_flag.gif",
+    language: "English (official) and an English-based pidgin (Liberian English), plus several indigenous languages"
   },
 {
     name: "Libya",
@@ -249,7 +275,8 @@ export default [
     region: "North Africa",
     population: " 6,871,292",
     currency: "Libyan dinar",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/libya_flag_new.gif",
+    language: "Arabic"
   },
 {
     name: "Madagascar ",
@@ -258,16 +285,18 @@ export default [
     region: "East Africa ",
     population: "27,691,018 ",
     currency: "Malagasy ariary ",
-    flag: ""
+    flag: "https://www.nationsonline.org/gallery/Madagascar/Madagascar-Flag.jpg",
+    language:"Malagasy and French"
   },
 {
     name: "Malawi",
     blurb: "Malawi, a landlocked country in southeastern Africa, is defined by its topography of highlands split by the Great Rift Valley and enormous Lake Malawi. The lake’s southern end falls within Lake Malawi National Park – sheltering diverse wildlife from colorful fish to baboons – and its clear waters are popular for diving and boating. Peninsular Cape Maclear is known for its beach resorts. ",
-    capital: "Lilongwe ",
-    region: "East Africa ",
+    capital: "Lilongwe",
+    region: "East Africa",
     population: "19,129,952 ",
     currency: "Malawian kwacha ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/malawi_flag.gif",
+    language:"poken languages are English and Nyanja (both official)."
   },
 {
     name: "Mali",
@@ -276,7 +305,8 @@ export default [
     region: "West Africa ",
     population: "20,250,833 ",
     currency: "West African CFA franc",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/mali_flag.gif",
+    language: "French and Bambara (Bamanankan), a Mande language."
   },
 {
     name: "Mauritania ",
@@ -285,16 +315,18 @@ export default [
     region: "Northwest Africa",
     population: "4,649,658 ",
     currency: "Mauritanian ouguiya ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/Mauritania_flag.gif",
+    language: " Arabic (official), Wolof (official), and French."
   },
 {
     name: "Mauritius",
     blurb: "Mauritius, an Indian Ocean island nation, is known for its beaches, lagoons and reefs. The mountainous interior includes Black River Gorges National Park, with rainforests, waterfalls, hiking trails and wildlife like the flying fox. Capital Port Louis has sites such as the Champs de Mars horse track, Eureka plantation house and 18th-century Sir Seewoosagur Ramgoolam Botanical Gardens",
-    capital: "Port Louis ",
-    region: "East Africa ",
-    population: "1,271,768 ",
-    currency: "Mauritian rupee ",
-    flag: ""
+    capital: "Port Louis",
+    region: "East Africa",
+    population: "1,271,768",
+    currency: "Mauritian rupee",
+    flag: "https://www.nationsonline.org/oneworld/flags/Mauritius_flag.gif",
+    language:"Morisien, English, and French"
   },
 {
     name: "Morocco ",
@@ -303,7 +335,8 @@ export default [
     region: "North Africa",
     population: "36,910,560 ",
     currency: "Moroccan dirham",
-    flag: ""
+    flag: "https://www.nationsonline.org/gallery/Morocco/Morocco-Flag.jpg",
+    language: "Arabic"
   },
 {
     name: "Mozambique ",
@@ -312,7 +345,8 @@ export default [
     region: "East Africa ",
     population: "31,255,435 ",
     currency: "Mozambican metical ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/mozambique_flag.gif",
+    language:"Portuguese(official), Makhuwa, Changana, Nyanja, Ndau, Sena, Chwabo, and Tswa."
   },
 {
     name: "Namibia",
@@ -321,7 +355,8 @@ export default [
     region: "Southern Africa",
     population: "2,540,905 ",
     currency: "Namibian dollar, South African rand ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/namibia_flag.gif",
+    language:"English, Ovambo, Khoekhoe, and Afrikaans."
   },
 {
     name: "Niger ",
@@ -330,7 +365,8 @@ export default [
     region: "West Africa",
     population: "24,206,644 ",
     currency: "West African CFA franc",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/niger_flag.gif",
+    language: "French (official), but also Hausa, Zarma, Songhay, Arabic and half a dozen other languages."
   },
 {
     name: "Nigeria ",
@@ -339,7 +375,8 @@ export default [
     region: "West Africa",
     population: "206,139,589 ",
     currency: "Naira ",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/nigeria_flag.gif",
+    language: "English (official), Hausa, Igbo, Yoruba, dozens indigenous languages"
   },
 {
     name: "Republic of the Congo",
@@ -348,7 +385,8 @@ export default [
     region: "Central Africa",
     population: "5,518,087 ",
     currency: "Central African CFA franc",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/congo_republic_of_the_flag.gif",
+    language:"French"
   },
 {
     name: "Rwanda",
@@ -357,7 +395,8 @@ export default [
     region: "East Africa ",
     population: "12,952,218 ",
     currency: "Rwandan franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/rwanda_flag.gif",
+    language:"Kinyarwanda (official language of Rwanda), English and French, Swahili"
   },
 {
     name: "São Tomé and Príncipe",
@@ -366,7 +405,8 @@ export default [
     region: "Central Africa",
     population: "219,159 ",
     currency: "São Tomé and Príncipe dobra",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/sao_tome_and_principe_flag.gif",
+    language:"Portuguese (official), Forro, Angolar, and some Principense Creole"
   },
 {
     name: "Senegal",
@@ -375,7 +415,8 @@ export default [
     region: "West African CFA franc",
     population: "16,743,927",
     currency: "West African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/senegal_flag.gif",
+    language: "French (official), Wolof, and other West African languages"
   },
 {
     name: "Seychelles",
@@ -384,7 +425,8 @@ export default [
     region: "East Africa",
     population: "99,644",
     currency: "Seychellois rupee",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/Seychelles_flag.gif",
+    lanuage:"Seychellois Creole, English and French."
   },
 {
     name: "Sierra Leone ",
@@ -393,16 +435,18 @@ export default [
     region: "West Africa",
     population: "7,976,983",
     currency: "Sierra Leonean leone ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/sierra_leone_flag.gif",
+    language:"English (official), English Creole, Temne, Mende and other West African languages."
   },
 {
-    name: "Somali ",
+    name: "Somalia",
     blurb: "Somalia, officially the Federal Republic of Somalia, is a country in the Horn of Africa. The country is bordered by Ethiopia to the west, Djibouti to the northwest, the Gulf of Aden to the north, the Indian Ocean to the east, and Kenya to the southwest. Somalia has the longest coastline on Africa's mainland.",
     capital: "Mogadishu ",
     region: "Somali shilling East Africa",
     population: "15,893,222 ",
     currency: "Somali shilling ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/somalia_flag.gif",
+    language:"Somali and Arabic (both official)."
   },
 {
     name: "South Africa",
@@ -411,7 +455,8 @@ export default [
     region: "Southern Africa",
     population: "59,308,690",
     currency: "South African rand",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/za_flag.gif",
+    language:"Afrikaans, English, Ndebele, Northern Sotho, Sotho, Swazi, Tswana, Tsonga, Venda, Xhosa, and Zulu."
   },
 {
     name: "South Sudan ",
@@ -420,7 +465,8 @@ export default [
     region: "North Africa ",
     population: "11,193,725 ",
     currency: "South Sudanese pound ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags12/south_sudan12_flag.gif",
+    language:"English (official), Dinka and Nuer"
   },
 {
     name: "Sudan ",
@@ -429,7 +475,8 @@ export default [
     region: "North Africa",
     population: "43,849,260 ",
     currency: "Sudanese pound",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/sudan_flag.gif",
+    language: "Arabic (official), Nubian, Ta Bedawie, Fur, English."
   },
 
 {
@@ -439,7 +486,8 @@ export default [
     region: " East Africa",
     population: "59,734,218 ",
     currency: "Tanzanian shilling ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/tanzania_flag.gif",
+    language:"poken languages are Swahili and English (both official), Arabic (widely spoken in Zanzibar)."
   },
 {
     name: "Togo",
@@ -448,7 +496,8 @@ export default [
     region: "West Africa ",
     population: "8,278,724",
     currency: "West African CFA franc ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/togo_flag.gif",
+    lanuage:" French (official), nearly 40 different West African languages, including Gbe dialects like Ewé, Gur and Kabiyé."
   },
 {
     name: "Tunisia",
@@ -457,7 +506,8 @@ export default [
     region: "North Africa ",
     population: "11,818,619 ",
     currency: "Tunisian dinar ",
-    flag: ""
+    flag: "https://www.nationsonline.org/gallery/Tunisia/Tunisia-Flag.jpg",
+    language: "https://www.nationsonline.org/gallery/Tunisia/Tunisia-Flag.jpg"
   },
 {
     name: "Uganda ",
@@ -466,7 +516,8 @@ export default [
     region: "East Africa",
     population: "45,741,007 ",
     currency: "Ugandan shilling",
-    flag: ""
+    flag: "https://www.nationsonline.org/oneworld/flags/uganda_flag.gif",
+    language:"English (official), Luganda (a major language of Uganda), Swahili, and other native languages."
   },
 {
     name: "Zambia",
@@ -475,7 +526,8 @@ export default [
     region: "East Africa ",
     population: "18,383,955",
     currency: "Zambian kwacha ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/zambia_flag.gif",
+    language:"English and several Bantu languages"
   },
 {
     name: "Zimbabwe ",
@@ -484,6 +536,7 @@ export default [
     region: "Southern Africa ",
     population: "14,862,924 ",
     currency: "United States Dollar ",
-    flag: ""
+    flag: "https://www.nationsonline.org/flags/zimbabwe_flag.gif",
+    language:"English (official), shona, Chewa, Kalanga"
   }
 ]
