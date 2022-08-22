@@ -13,6 +13,7 @@ export default function App() {
           population={data.population}
           currency={data.currency}
           flag={data.flag}
+          language={data.language}
     />
   })
 

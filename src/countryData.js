@@ -6,7 +6,8 @@ export default [
     region: "North Africa",
     population: "43,851,044",
     currency: "Algerian dinar",
-    flag: "https://www.nationsonline.org/gallery/Algeria/Algeria-Flag.jpg"
+    flag: "https://www.nationsonline.org/gallery/Algeria/Algeria-Flag.jpg",
+    language:"Arabic, Tamazight, English, French, Spanish"
   },
 {
     name: "Angola",

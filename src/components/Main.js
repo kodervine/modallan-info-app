@@ -6,7 +6,7 @@ export default function Main(props) {
     <div class="main-container">
       <header class="main-header">
         <img src={props.flag}alt="country-flag" />
-        <h3>Country Name: {props.name}</h3>
+        <h3>{props.name}</h3>
         <div><span class="material-symbols-outlined">expand_more</span></div>
       </header>
 
@@ -17,6 +17,7 @@ export default function Main(props) {
         <p>Population: <span>{props.population}</span></p>
         <p>Region: <span>{props.region}</span></p>
         <p>Currency: <span>{props.currency}</span></p>
+        <p>Languages: <span>{props.language}</span></p>
       </article>
     </div>
   )
