@@ -14,7 +14,7 @@ export default function Main(props) {
       <article class="main-body">
         <p>Blurb: <span>{props.blurb}</span></p>
         <p>Capital: <span>{props.capital}</span></p>
-        <p>Population <span>{props.country}</span></p>
+        <p>Population: <span>{props.population}</span></p>
         <p>Region: <span>{props.region}</span></p>
         <p>Currency: <span>{props.currency}</span></p>
       </article>
