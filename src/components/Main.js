@@ -1,22 +1,22 @@
 import React from 'react'
 import "./App.css"
 
-export default function Main() {
+export default function Main(props) {
   return (
     <div class="main-container">
       <header class="main-header">
         <img src="" alt="country-flag" />
-        <h3>Country Name: Nigeria</h3>
+        <h3>Country Name: {props.country}</h3>
         <div><span class="material-symbols-outlined">expand_more</span></div>
       </header>
 
       {/* Body blurb */}
       <article class="main-body">
-        <p>Blurb: <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure veritatis amet animi sed dicta veniam expedita laborum fugiat ipsam eligendi</span></p>
-        <p>Capital: <span>Abuja</span></p>
-        <p>Population <span>200 million</span></p>
-        <p>Region: <span>West Africa</span></p>
-        <p>Currency: <span>Naira</span></p>
+        <p>Blurb: <span>{props.blurb}</span></p>
+        <p>Capital: <span>{props.capital}</span></p>
+        <p>Population <span>{props.country}</span></p>
+        <p>Region: <span>{props.region}</span></p>
+        <p>Currency: <span>{props.currency}</span></p>
       </article>
     </div>
   )
