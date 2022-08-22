@@ -5,8 +5,8 @@ export default function Main(props) {
   return (
     <div class="main-container">
       <header class="main-header">
-        <img src="" alt="country-flag" />
-        <h3>Country Name: {props.country}</h3>
+        <img src={props.flag}alt="country-flag" />
+        <h3>Country Name: {props.name}</h3>
         <div><span class="material-symbols-outlined">expand_more</span></div>
       </header>
 
