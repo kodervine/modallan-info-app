@@ -2,16 +2,31 @@ import React from 'react'
 import "./App.css"
 
 export default function Main(props) {
+  // Set state to display none
+  const [hideDetails, setHideDetails] = React.useState("none")
+
+
+  const styles = {
+      display: hideDetails ? "none" : "block"
+  }
+
+  function toggle(){
+    setHideDetails((style) => {
+      return style = !hideDetails;
+    })
+  }
+
+
   return (
-    <div class="main-container">
+  <div class="main-container">
       <header class="main-header">
         <img src={props.flag}alt="country-flag" />
         <h3>{props.name}</h3>
-        <div><span class="material-symbols-outlined">expand_more</span></div>
+        <div onClick={toggle}><span class="material-symbols-outlined">expand_more</span></div>
       </header>
 
       {/* Body blurb */}
-      <article class="main-body">
+      <article style={styles} class="main-body">
         <p>Blurb: <span>{props.blurb}</span></p>
         <p>Capital: <span>{props.capital}</span></p>
         <p>Population: <span>{props.population}</span></p>
