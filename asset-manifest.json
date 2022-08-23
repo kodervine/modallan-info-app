@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/modallan-info-app/static/css/main.7108e060.css",
+    "main.js": "/modallan-info-app/static/js/main.d5fd7b19.js",
+    "index.html": "/modallan-info-app/index.html",
+    "main.7108e060.css.map": "/modallan-info-app/static/css/main.7108e060.css.map",
+    "main.d5fd7b19.js.map": "/modallan-info-app/static/js/main.d5fd7b19.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7108e060.css",
+    "static/js/main.d5fd7b19.js"
+  ]
+}
