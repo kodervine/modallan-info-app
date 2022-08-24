@@ -19,7 +19,7 @@ export default function Main(props) {
 
   return (
   <div class="main-container">
-      <header class="main-header">
+      <header class="main-header"  onClick={toggle}>
         <img src={props.flag}alt="country-flag" />
         <h3>{props.name}</h3>
         <div onClick={toggle}><span class="material-symbols-outlined">expand_more</span></div>
