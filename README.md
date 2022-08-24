@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+Modallan documentation
+***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is one of the major projects I've built since I started learning React Hooks - props and useState
 
-## Available Scripts
+So I decided to try something mini.
 
-In the project directory, you can run:
+After initializing the react-app, I created the different folders i needed in the source file
 
-### `npm start`
+I created a components file, and added the Header.js file, and Main.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Main.js is actually the bulk of the work
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I also created another folder directly in the source file, countryData.js
 
-### `npm test`
+I know I should have used webAPIs to dynamically source the data from online. However, I'm still learning webAPIs, so that's sorta on hold for now
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+So I manually created out the information for the 54 countries (more of copy and paste though)
 
-### `npm run build`
+Then, in the App.js, I imported all the necessary components I needed (Main.js, Header.js, countryData.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I selected the countrydata.js and saved it to the allCountryData variable.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+In the variable, I mapped over the countryData array and assigned the object keys to different props in the Main.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then in the App.js return div, I rendered both the Header, and the {allCountryData} variable to be able to display on the page 
+***
+In the Main.js file, I created a state to toggle the countryDetails. I named the state - [ hideDetails, setHideDetails], and assigned it to "none"
 
-### `npm run eject`
+I also created the styling variable, which I set the display to a ternary operator. So, if the hideDetails is "none", it will set the display to "none" else "block"
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Then, I created the toggle Function.
+Then I set the setHideDetails useState, which will return the opposite of the current hideDetails when it's called
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now, over to the return div, I created the markup for the page, and used props to display all the elements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+In the header, I added the toggle Function for the onClick eventListener. So, when it's called, it's going to set the opposite of whatever the current "hideDetails" useState is. I also added this event listener to the "expand icon" as well
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Finally, in the countryDetails section, I set the styles to the style variable which already has that ternary operator.
+What this does is that it will set the details display to "none/block" depending on what the current hideDetails useState is.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+And that's how I built my current mini-encyclopedia (Modallan )
